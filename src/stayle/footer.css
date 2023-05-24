@@ -1,0 +1,134 @@
+
+.fotters{
+   display: inline-flex;
+   flex-direction: row;
+   float: left;
+    justify-content: space-between;
+
+}
+.headfooter{
+    margin-top: 2rem;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns:5% 20% 20% 20%;
+    grid-auto-rows: minmax(150px auto);
+   gap: 10%;
+   padding: 3rem;
+
+}
+.submitfooter{
+    /* padding: 10px 10px 10px; */
+ 
+margin-left: 2rem;
+margin-top: 1rem;
+width: 87px;
+height: 50px;
+  color: white;
+  border: none;
+    /* gap: 10px; */
+    background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+border-radius: 40px;
+
+}
+.social-media{
+    color: rgb(210, 30, 30);
+
+  
+}
+
+
+.social li{
+    padding: 1rem ;
+    float: left; 
+}
+.pagecolor{
+    color: rgb(210, 30, 30);
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+}
+.pad{
+    color: rgb(210, 30, 30);
+
+    float: left;
+    
+}
+.bitappslink{
+ 
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+.bitappslink a{
+    color: red;
+    text-decoration: none;
+}
+.formbox2{
+    padding: 0 1rem;
+    padding: 15px 20px 16px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+opacity: 0.87;
+border: 1px solid #D3D3D3;
+border-radius: 200px;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.Footer1{
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+    .grid-footer{
+        grid-template-columns: 1fr;
+    }
+    .submitfooter{
+        margin-left: 1rem;
+    }
+    .headfooter{
+        margin-top: 1rem;
+    }
+    .social-media{
+        margin-top: 1rem;
+    }
+    .campany{
+        margin-bottom: 2rem;
+        padding: 3rem;
+        margin-top: 2rem;
+    }
+    .link{
+        margin-left: 4rem;
+    }
+    .logo2{
+        margin-left: 4rem;
+    }
+    .contactleft{
+        margin-left: 4rem;
+    }
+    .pagecolor p{
+        padding: 2rem;
+    }
+    .social-media{
+        margin-left: 4rem;
+    }
+   .pad{
+     margin-top: -1rem;
+   }
+   .hr{
+    margin-top: 3rem;
+   }
+   .hr2{
+    margin-top: 8rem;
+   }
+}
+.social li a{
+    color: rgb(210, 30, 30);
+}

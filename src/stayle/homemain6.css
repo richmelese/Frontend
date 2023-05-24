@@ -1,0 +1,33 @@
+.grid-teamsection{
+	display: grid;
+grid-template-columns: 20% 20%  20% 20%;
+grid-column-gap:4rem;
+grid-row-gap:4rem;
+padding: 3rem;
+
+gap: 20px;
+background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+
+.grid__Team{
+  /* grid-area: header; */
+  font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 378px;
+line-height: 454px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+}
+@media only screen and (max-width: 700px) {
+  .grid-teamsection{
+      grid-template-columns: 1fr;
+  }
+  .btn-primary{
+
+    margin-left: 1rem;
+  }
+}

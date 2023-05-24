@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+
+.heading{
+	display: grid;
+	grid-template-rows: 20%;
+	grid-template-rows: minmax(150px, auto);
+	padding: 0 1rem;
+	width: 662.7px;
+	height: 68px;
+	 margin-left: 25%;
+	 text-align: center;
+	 font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+
+}
+.heading p{
+	text-align: center;
+	 font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 34px;
+}
+/* .btncolor{
+	color: white;
+} */
+.btn-hello{
+	background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+	color: white;
+	text-decoration: none;
+	border: none;
+	outline: none;
+
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 12px;
+	padding: 20px 40px;
+	margin-top: 5%;
+	
+	border-color: #000000;
+}
+.grid-container1{
+	display: grid;
+	grid-template-rows: 20% 40% 20%;
+	grid-row-gap: 10%;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100px;
+	line-height: 120px;
+	text-align: center;
+	margin-top: 2rem;
+
+	color: #0E828F;
+}
+.grid-container1 p{
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100px;
+	line-height: 120px;
+	text-align: center;
+
+	color: #0E828F;
+}
+.creative{
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 100px;
+	line-height: 120px;
+	text-align: center;
+
+	color: #0E828F;
+}
+.btn-rich{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 12px;
+	gap: 10px;
+	width: 150px;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 12px;
+
+	background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+	border-radius: 50px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+  } 
+  .button{
+	background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color:white;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 12px;
+	width: 5rem;
+	height: 2rem;
+	padding: 20px 40px;
+	border-color: #000000;
+	transition: all 0.5s;
+	cursor: pointer;
+	/* margin: 5px; */
+  }
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  .button span:after {
+	/* content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s; */
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+  .button2{
+	background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+	text-decoration: none;
+	margin-left: 38rem;
+	border: none;
+	outline: none;
+	color:white;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 12px;
+	padding: 14px 40px;
+	border-color: #000000;
+	transition: all 0.5s;
+	cursor: pointer;
+	/* margin: 5px; */
+  }
+  .button2 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  /* .button2 span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  } */
+  
+  .button2:hover span {
+	padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+  .btn-smart {
+	background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color:white;
+	font-weight: 700;
+	border-radius: 30px;
+	font-size: 12px;
+	padding: 18px 40px;
+  }
+ 
+  
+
+ .grid__button1{
+	display: grid;
+	grid-template-columns: 90%;
+	padding: 3rem;
+
+ }
+ @media (min-width: 1920px) and (max-width: 2560px) {
+	
+ }
+
+@media only screen and (max-width: 700px) {
+	.grid-container{
+		grid-template-columns: 1fr;
+		font-weight: 400;
+	font-size: 40px;
+	}
+	.heading{
+		grid-template-columns: 1fr;
+	}
+	.btn-smart{
+		grid-template-columns: 1fr;
+		padding: 3px;
+		margin-left: 1rem;
+		width: 4rem;
+	}
+	.scrolpic{
+		padding: 2rem;
+		margin-bottom: -1rem;
+		margin-left: 7rem;
+		margin-top: 3rem;
+	  }
+	.btn-rich{
+		margin-left: 1rem;
+	}
+	.heading{
+		padding: 1rem;
+		width: auto;
+		height: auto;
+		margin-left: 5%;
+	}
+	.button2{
+		margin-left: 7rem;
+	}
+	.grid__button1{
+		grid-template-columns: 1fr;
+		padding: 1rem;
+	}
+	.grid-container1 p{
+		padding: 0rem;
+		font-weight: 500;
+		font-size: 70px;
+		line-height: 60px;
+		
+	}
+	.creative {
+		
+		font-weight: 500;
+		font-size: 70px;
+		line-height: 60px;
+		
+	}
+}
+/*  */
+.Home__first__text h1 {
+	font-family: "Syne";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 88px;
+	line-height: 120px;
+	text-align: center;
+	margin-top: 5rem;
+  
+	/* #0E828F */
+  
+	color: #0e828f;
+  }
+  .Home__first__btn {
+	width: 122.82px;
+	height: 50.82px;
+	border: none;
+	background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+	border-radius: 40px;
+  }
+  .Home__first__text h5 a {
+	font-family: "Nunito";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 59px;
+	/* identical to box height */
+  
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+  }
+  @media only screen and (max-width: 700px) {
+	.Home__first__text h1 {
+	  font-size: 58px;
+	  line-height: 85px;
+	}
+  }

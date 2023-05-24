@@ -1,0 +1,61 @@
+.grid__container{
+	display: grid;
+	grid-template-columns: 30% 30%;
+	grid-template-rows: minmax(150px, auto);
+  grid-column-gap:15% ;
+  padding: 3rem;
+  /* margin-top: 5%; */
+  margin-left: 5%;
+
+ 
+  }
+  .grid__text {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+      }
+  .container-text{
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+ }
+ .btn-mail{
+  
+        background: rgb(247, 240, 240);
+        text-decoration: none;
+        border: none;
+        outline: none;
+        color: #0c0c0c;
+        font-weight: 700;
+        border-radius: 30px;
+        font-size: 12px;
+        /* padding: 20px 40px; */
+        border-color: #000000;
+    
+ }
+ @media only screen and (max-width: 700px) {
+	.grid-container{
+		grid-template-columns: 1fr;
+    overflow:hidden;
+    padding: 1rem;
+    margin-left: 2%;
+	}
+  .container-text{
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+}
+      

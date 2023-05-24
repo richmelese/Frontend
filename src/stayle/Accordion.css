@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Syne';
+}
+h1{
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+.find{
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 48px;
+text-align: center;
+
+/* Linear */
+
+background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+  }
+  
+  .accordion {
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  
+  .accordion-title {
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background: white;
+    color: #0E828F;
+    
+    border-radius: 8px;
+  }
+  
+  .accordion-title:hover {
+    background: white;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 1rem;
+  }
+  
+  .accordion-content {
+    font-family: 'Syne';
+    font-style: normal;
+    text-align: center;
+    background: linear-gradient(98.88deg, #F05F2B 13.12%, #EC1771 119.96%);
+
+   color: #FFFFFF;
+  }
+  .accordioncolor{
+    background-color: #0E828F;
+    color: #eee9e9;
+    font-size: 2rem;
+  }
+  
+  @media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .accordion {
+      width: 90%;
+      /* margin-left: 5rem; */
+      padding: 3rem;
+    }
+  }
