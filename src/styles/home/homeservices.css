@@ -1,0 +1,122 @@
+.Header__Container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 3rem;
+  padding-left: 5rem;
+  /* margin-top: -26rem; */
+}
+.Header__Container p {
+  color: var(--style, #25233a);
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+}
+.Services__Container {
+  display: grid;
+  grid-template-columns: 27% 27% 27%;
+  gap: 7%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  padding: 1rem;
+  background-color: white; */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containers {
+  padding: 2px 16px;
+}
+.Icons__img {
+  background-color: #0e828f;
+  width: 3rem;
+  border-radius: 6px;
+  margin-left: 8rem;
+}
+.containers h4 {
+  color: var(--gray-900, #061c3d);
+  text-align: center;
+
+  /* Body/Xtra Large/400 */
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.containers p {
+  color: var(--gray-700, #42526b);
+  text-align: center;
+
+  /* Body/Medium/300 */
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+#Services {
+  margin-top: -6rem;
+}
+.Servicess__Text {
+  padding-top: 2rem;
+  text-align: left;
+  font-size: 40px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+.Servicess__span {
+  background-color: teal;
+  z-index: 1;
+  -webkit-text-fill-color: white;
+}
+.Serv-arwo {
+  margin-bottom: -5px;
+  width: 1.5rem;
+  padding-left: 2px;
+}
+.card-link {
+  /* Body/Medium/400 */
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .Header__Container {
+    grid-template-columns: 100%;
+    padding: 1rem;
+    padding-left: 2rem;
+  }
+  .Services__Container {
+    grid-template-columns: 100%;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: -0.7rem;
+  }
+  #Services {
+    margin-top: 7rem;
+  }
+}

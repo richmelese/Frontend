@@ -1,0 +1,26 @@
+.About__Team__btn {
+  border: none;
+  border-radius: 42px;
+  padding: 1px 32px;
+  background: var(
+    --linear-2-paints,
+    linear-gradient(134deg, #f05f2b 0%, #ec1771 100%)
+  );
+  margin-bottom: 3rem;
+}
+.About__Team__btn p a {
+  color: var(--style, #fff);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.About__Team__btn p {
+  /* padding: 11px; */
+  margin-bottom: 0rem;
+  padding: 1.3rem;
+}
+.About__teams {
+  margin-top: 13rem;
+}

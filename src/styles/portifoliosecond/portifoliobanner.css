@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap");
+.Portifolio__banner {
+  object-fit: cover;
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.grid_banner {
+  display: grid;
+  grid-template-rows: 30% 30%;
+  grid-auto-rows: minmax(100px auto);
+}
+.image img {
+  width: 800px;
+  margin-top: -35rem;
+  border-radius: 18px;
+}
+/* .Line img{
+   margin-top: -8rem;
+  } */
+.box1 {
+  color: #030211;
+  text-align: center;
+  font-size: 25px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.box2 {
+  color: #030211;
+  text-align: center;
+  font-size: 25px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.box3 {
+  color: #030211;
+  text-align: center;
+  font-size: 25px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: -1rem;
+}
+.second_box h6 {
+  color: #7c7c7c;
+  text-align: center;
+  font-size: 18px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 7rem;
+}
+.box4 h6 {
+  margin-left: 29rem;
+  margin-top: -0.5rem;
+}
+.box4 a p {
+  margin-left: 26rem;
+  margin-top: -4.5rem;
+  width: 14rem;
+  text-align: center;
+  color: #f05f2b;
+  font-size: 30px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.second_box {
+  margin-top: 2rem;
+
+  /* color: #030211;
+text-align: center;
+font-size: 25px;
+font-family: Syne;
+font-style: normal;
+font-weight: 500;
+line-height: normal; */
+}
+.second_box img {
+  margin-top: -2rem;
+  margin-left: 2rem;
+}
+.second_box {
+  display: grid;
+  grid-template-columns: 12% 12% 12% 12% 12% 12%;
+  gap: 0%;
+  height: 100px;
+  border-radius: 30px;
+  background: var(--style, #fff);
+  box-shadow: 5px 6px 6px 5px rgba(6, 28, 61, 0.12);
+  padding: 1rem;
+  margin-left: 21rem;
+  margin-top: -11rem;
+  width: 684px;
+  position: relative;
+}
+.Portifolio__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+  padding-top: 7rem;
+}
+.Portifolio__container .First {
+  /* background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5.5px);
+    border-radius: 29px; */
+}
+.Portifolio__container .First h6 {
+  margin-left: -14rem;
+  color: var(--style, #fff);
+  font-size: 25px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Portifolio__container .First h1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 116%;
+  color: #25233a;
+}
+.Portifolio__container .First p {
+  margin-top: 10rem;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 116%;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+@media screen and (max-width: 700px) {
+  .Portifolio__container {
+    grid-template-columns: 100%;
+    padding-left: 1rem;
+  }
+  .box4 a p {
+    margin-top: 8rem;
+    margin-left: -2rem;
+  }
+  .box4 h6 {
+    margin-left: 7rem;
+  }
+  .box1 p {
+    margin-top: 4rem;
+    margin-left: -3rem;
+  }
+  .box2 p {
+    margin-top: -7rem;
+    margin-left: -4rem;
+  }
+  .box3 p {
+    margin-top: -6rem;
+    margin-left: -2rem;
+  }
+  .line {
+    visibility: hidden;
+  }
+  .box4 {
+    margin-top: -14rem;
+    margin-left: 2rem;
+  }
+  .second_box h6 {
+    margin-left: 3rem;
+  }
+  .second_box {
+    grid-template-columns: 100%;
+    margin-left: 2rem;
+    width: 300px;
+    height: 30rem;
+    margin-top: -15rem;
+  }
+  .Portifolio__container .First {
+    width: 21rem;
+  }
+  .Portifolio__container .First h1 {
+    font-size: 32px;
+
+    padding-left: 2rem;
+  }
+  .image img {
+    width: 400px;
+  }
+  .Portifolio__container .First h6 {
+    margin-left: 3rem;
+  }
+}

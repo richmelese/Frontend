@@ -1,0 +1,226 @@
+.Footer__Container .Text h1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Style */
+  padding: 2rem;
+  color: #ffffff;
+}
+.Footer__Container li {
+  list-style: none;
+}
+.Sub__Footer {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 10%;
+  grid-auto-rows: minmax(100px auto);
+  padding-left: 15rem;
+  margin-top: -3rem;
+}
+.Sub__Footer p {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  margin-top: 3rem;
+  text-align: center;
+
+  /* Style */
+
+  color: #ffffff;
+}
+.Footer__hr {
+  width: 71rem;
+  margin-left: -9rem;
+  color: white;
+  margin-bottom: 2rem;
+  /* display: none; */
+}
+/* ============================= */
+.Footer__Content {
+  display: grid;
+  grid-template-columns: 16% 18% 34% 33%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+  margin-top: -3rem;
+}
+.Footer__Content h2 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+
+  /* Style */
+
+  color: #ffffff;
+  padding-right: 0rem;
+}
+/* li {
+  list-style: none;
+} */
+.Footer__Content li a {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 164.5%;
+  text-align: left;
+  color: #ffffff;
+  margin-left: -3rem;
+}
+.Footer__Content p {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 164.5%;
+  /* or 33px */
+  text-align: left;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+#contact {
+  margin-left: -11rem;
+}
+.Text{
+  margin-top: 2rem;
+}
+.Footer__Content ul {
+  padding-top: 1rem;
+}
+.Footer__input {
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 40px;
+  padding: 0rem 2rem;
+}
+
+/*  */
+.Input__container {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  gap: 3%;
+  padding-left: 6rem;
+  padding-top: 1rem;
+}
+.Input__container button {
+  width: 87px;
+  height: 50px;
+  border: none;
+  background: #ffffff;
+  border-radius: 40px;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+}
+.Social__Media img {
+  width: 1.3rem;
+}
+.Social__Media {
+  padding-left: 4rem;
+}
+.Social__Media li {
+  float: left;
+  margin-left: -3rem;
+  /* padding: 3rem; */
+  margin-top: 1rem;
+  padding-left: 8rem;
+}
+.bitapps__container {
+  margin-bottom: -6rem;
+  margin-top: -2rem;
+}
+.bitapps__container h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147.5%;
+  padding-bottom: 0.5rem;
+  color: #ffffff;
+}
+.bitapps__container a {
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.Footer__Two__hr {
+  width: 74rem;
+  margin-top: 0rem;
+  margin-left: 5rem;
+  color: white;
+  /* display: none; */
+}
+.Footer__Container {
+  margin-top: 9rem;
+}
+@media screen and (max-width: 700px) {
+  .Footer__Container li a {
+    margin-left: -11rem;
+  }
+  .Footer__Two__hr {
+    display: none;
+  }
+  .Footer__hr {
+    display: none;
+  }
+  .Sub__Footer {
+    grid-template-columns: 100%;
+    padding-left: 0rem;
+  }
+  .Footer__Content {
+    grid-template-columns: 100%;
+  }
+  .Footer__Container {
+    margin-top: 15rem;
+  }
+  .Footer__log {
+    width: 9rem;
+    margin-left: -8rem;
+  }
+  #contact {
+    margin-left: 0rem;
+  }
+  .Footer__Content h2 {
+    padding-right: 12rem;
+    padding-top: 1rem;
+  }
+  .Footer__Content ul {
+    padding-top: 1rem;
+    margin-left: -3rem;
+  }
+  .Social__Media {
+    padding-left: 1rem;
+  }
+  .Input__container {
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .Footer__hr {
+    width: 106rem;
+  }
+  .Footer__Content h2 {
+    padding-right: 9rem;
+  }
+  .Footer__Content ul {
+    padding-top: 1rem;
+    margin-left: -7rem;
+  }
+  ul.Social__Media {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,65 @@
+.Service__banner {
+  object-fit: cover;
+  height: 31rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.Service__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+  padding-top: 7rem;
+}
+.Service__container .First {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5.5px);
+  border-radius: 29px;
+}
+.Service__container .First h1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 116%;
+  color: #25233a;
+}
+.Service__container .First p {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 116%;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+@media screen and (max-width: 700px) {
+  .Service__container {
+    grid-template-columns: 100%;
+    padding-left: 1rem;
+  }
+  .Service__container .First {
+    width: 21rem;
+  }
+  .Service__container .First h1 {
+    font-size: 32px;
+
+    padding-left: 2rem;
+  }
+  ul.unorderd {
+    padding-left: 5rem;
+  }
+  .Second__partner {
+    margin-top: 35rem;
+  }
+  .des__para {
+    margin-left: 3rem;
+  }
+  ul.orderd_number {
+    margin-left: 3rem;
+  }
+}

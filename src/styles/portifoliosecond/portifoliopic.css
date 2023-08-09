@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+.grid__pic{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 10%;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+.first img{
+    width: 400px;
+    position: relative;
+}
+.second img{
+    width: 400px;
+    position: relative;
+}
+.span_port{
+    color: white;
+    background-color:#0E828F;
+}
+.more{
+     color:#F05F2B;
+    text-align: center;
+font-size: 40px;
+font-family: Syne;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.shadow_box{
+
+    border-radius: 50px;
+    border: 1px solid var(--gray-100, #E6E8EC);
+    background: var(--gray-00, #FFF);
+    width: 400px;
+    height: 160px;
+    margin-top: -4rem;
+    margin-left: 0rem;
+   
+}
+.p2{
+    color: var(--gray-900, #061C3D);
+/* Body/XXL/400 */
+font-size: 22px;
+font-family: Lexend;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.ppp{
+
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    color: var(--gray-700, #42526B);
+/* Body/Medium/300 */
+font-size: 16px;
+font-family: Lexend;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+}
+.p1{
+    color: var(--gray-900, #061C3D);
+/* Body/XXL/400 */
+font-size: 22px;
+font-family: Lexend;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.linkk{
+    color: var(--gray-900, #061C3D);
+    /* Body/XXL/400 */
+    font-size: 22px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.pp{
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    color: var(--gray-700, #42526B);
+/* Body/Medium/300 */
+font-size: 16px;
+font-family: Lexend;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+}
+.shadow_box2{
+    border-radius: 50px;
+    border: 1px solid var(--gray-100, #E6E8EC);
+    background: var(--gray-00, #FFF);
+    width: 400px;
+    height: 160px;
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+@media screen and (max-width: 700px) {
+    .grid__pic {
+      grid-template-columns: 100%;
+      margin-left: 2rem;
+      
+    }
+    .second img{
+        width: 200px;
+    }
+    .first img{
+        width: 200px;
+        margin-left: -2rem;
+    }
+    .shadow_box{
+        width: 300px;
+        
+    }
+    .shadow_box2{
+        width: 300px;
+    }
+    .p2{
+        font-size: 16px;
+    }
+    .p1{
+        font-size: 16px;
+        
+    }
+}

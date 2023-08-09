@@ -1,0 +1,291 @@
+.Homework__text h1 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #6abd47;
+}
+.Homework__text h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 64px;
+  /* identical to box height, or 116% */
+
+  text-align: center;
+
+  color: #16213e;
+}
+.Homework__container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 3%;
+  grid-template-rows: minmax(100px auto);
+  padding: 3rem;
+}
+.Homework__container img {
+  border-radius: 1rem;
+}
+.Homework__container .Sub__img {
+  display: grid;
+  grid-template-rows: 47% 40%;
+  gap: 5%;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+  background-color: transparent;
+}
+
+.container .text {
+  background-color: #e0e2dfcf;
+  color: #fcfffbcf;
+  font-size: 16px;
+
+  margin-top: 20rem;
+}
+.hover-img {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin: 8px;
+  max-width: 320px;
+  min-width: 240px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  /* border-radius: 1rem; */
+}
+
+.hover-img * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.hover-img::before,
+.hover-img::after {
+  background: rgba(29, 28, 28, 0.75);
+  background-blend-mode: multiply;
+  backdrop-filter: blur(4px);
+  /* background-color: #7aad64cf; */
+  /* border-top: 32px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.5); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(2);
+}
+
+.hover-img img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.hover-img figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.1em;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hover-img:hover::before,
+.hover-img:hover::after {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.hover-img:hover > img {
+  opacity: 0.7;
+}
+
+.hover-img:hover figcaption {
+  opacity: 1;
+}
+figcaption p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 15px;
+  /* identical to box height, or 107% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #d4d7dd;
+}
+figcaption h1 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.Ports__Text {
+  text-align: center;
+  padding-left: 4rem;
+  font-size: 40px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.Ports__span {
+  background-color: teal;
+  z-index: 1;
+  -webkit-text-fill-color: white;
+}
+.Port__Main__Header {
+  display: grid;
+  grid-template-columns: 60% 20%;
+  gap: 20%;
+  grid-auto-rows: minmax(100px auto);
+}
+.Port__Main__Header button p a {
+  color: var(--style, #fff);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.Port__Main__Header button p {
+  padding-top: 16px;
+}
+.Port__Main__Header button {
+  border-radius: 42px;
+  background: var(
+    --linear-2-paints,
+    linear-gradient(134deg, #f05f2b 0%, #ec1771 100%)
+  );
+  padding: 0px 32px;
+  border: none;
+}
+.Homeport__header {
+  color: var(--style, #25233a);
+  font-family: Cabin;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.Sub__text {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 116%;
+  /* or 29px */
+
+  /* Style */
+  text-align: left;
+  color: #ffffff;
+  padding: 1rem;
+  margin-top: 6rem;
+}
+.Icon__img {
+  margin-top: -2rem;
+  margin-left: 14rem;
+  width: 3rem;
+}
+/* =============Number=============== */
+.grid-numbers {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-column-gap: 5%;
+  margin-top: 6rem;
+  /* color: white;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #0e828f, 1px 1px 0 #0e828f, 1px -1px 0 #0e828f,
+    -1px -1px 0 #0e828f; */
+}
+.Sup {
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px 1px 0 #0e828f, 1px 1px 0 #0e828f, 1px -1px 0 #0e828f,
+    -1px -1px 0 #0e828f;
+}
+.lorem {
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 25px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Plus {
+  color: red;
+  text-shadow: red;
+}
+@media only screen and (max-width: 700px) {
+  .grid-numbers {
+    grid-template-columns: 50% 50%;
+  }
+  .lorem {
+    margin-left: 0rem;
+  }
+  .Port__Main__Header {
+    grid-template-columns: 100%;
+  }
+  .Homework__container {
+    grid-template-columns: 1fr;
+  }
+  .Homeport__header {
+    padding-left: 1rem;
+  }
+  .Ports__Text {
+    margin-bottom: 1rem;
+    padding-top: 8rem;
+    margin-left: -9rem;
+  }
+}

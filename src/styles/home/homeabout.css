@@ -1,0 +1,221 @@
+.HA__container {
+  display: grid;
+  grid-template-columns: 40% 10% 45%;
+  gap: 0%;
+  grid-auto-rows: minmax(20px auto);
+  padding: 5rem;
+}
+.HA__container .Text {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  
+  text-align: center;
+
+  /* Linear (2 paints) */
+
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.second span {
+  background-color: #0e828f;
+  color: white;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  text-align: center;
+}
+.HA__container .Sub__container {
+  display: grid;
+  grid-template-columns: 31% 12%;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+}
+.Sub__container .second {
+  margin-top: 0rem;
+}
+.Sub__container p {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 147.5%;
+  /* identical to box height, or 27px */
+  text-align: left;
+  color: #181818;
+  margin-top: 3rem;
+}
+.HA__container h6 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 147.5%;
+  text-align: left;
+  color: #595566;
+  margin-top: 1rem;
+}
+.Miss__header {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 147.5%;
+  text-align: left;
+  color: #181818;
+  margin-top: 2rem;
+}
+.HAbout__img {
+  margin-top: 14rem;
+  position: relative;
+  z-index: 10;
+  width: 40rem;
+}
+.HAbout__img img {
+  border-radius: 25px;
+}
+.Pattern-img {
+  position: relative;
+  z-index: 1;
+  width: 18rem;
+  margin-top: 25rem;
+  margin-left: 4rem;
+}
+.ReadMore__btn {
+  width: 165px;
+  height: 68px;
+
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  border-radius: 72px;
+  border: none;
+  margin-left: -21rem;
+  margin-top: 2rem;
+}
+.ReadMore__btn h3 a {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  color: #ffffff;
+}
+.Box__container {
+  height: 5.5rem;
+  position: relative;
+  z-index: 23;
+  /* margin-top: -23rem; */
+  display: grid;
+  grid-template-columns: 34% 66%;
+  width: 15rem;
+  padding: 14px;
+  margin-top: -4rem;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+  /* background-color: red; */
+  border-radius: 30px;
+  margin-left: -3rem;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #ffffff;
+  box-shadow: 0px 24px 42px rgba(185, 185, 185, 0.25);
+  backdrop-filter: blur(16px);
+  border: none;
+}
+.Box__container img {
+  margin-top: 0rem;
+}
+.Box__container h1 {
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 116%;
+  /* identical to box height, or 77px */
+
+  /* Linear (2 paints) */
+
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 1rem;
+}
+.Satisfed__Cont {
+  margin-top: -2rem;
+}
+
+.Box__container h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 147.5%;
+  color: #181818;
+  margin-top: -4rem;
+}
+.Abouts__Text {
+  text-align: left;
+  font-size: 40px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Abouts__span {
+  background-color: teal;
+  z-index: 1;
+  -webkit-text-fill-color: white;
+}
+.Vision__text {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 147.5%;
+  text-align: left;
+  color: #181818;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  .HA__container {
+    grid-template-columns: 100%;
+    padding: 2rem;
+  }
+  .HA__container .Sub__container {
+    grid-template-columns: 38% 12%;
+    margin-top: -7rem;
+  }
+  .ReadMore__btn {
+    margin-left: -11rem;
+  }
+  .HAbout__img {
+    margin-top: -26rem;
+    margin-bottom: 8rem;
+    width: 23rem;
+  }
+  .Pattern-img {
+    margin-top: 14rem;
+    margin-left: -5rem;
+  }
+  .Box__container {
+    margin-top: -13rem;
+
+    margin-left: -1rem;
+  }
+}

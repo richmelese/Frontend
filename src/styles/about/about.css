@@ -1,0 +1,103 @@
+.About__Banner {
+  object-fit: cover;
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.About__Container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+  padding-top: 7rem;
+}
+.About__Container .First h2 {
+  color: #181818;
+  font-family: Syne;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%;
+  text-align: left;
+  /* padding-left: 4rem; */
+  padding: 2rem;
+}
+.About__Container .First {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5.5px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 29px;
+}
+/* ======================================== */
+.Main__About {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 10%;
+  grid-auto-rows: minmax(100px auto);
+}
+.Abouts__Text {
+  text-align: center;
+  font-size: 40px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+
+  margin-bottom: 7rem;
+}
+.Abouts__span {
+  background-color: teal;
+  z-index: 1;
+  -webkit-text-fill-color: white;
+}
+.Main__About {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 10%;
+  padding: 4rem;
+  grid-auto-rows: minmax(100px auto);
+}
+.Right__img {
+  width: 2rem;
+  margin-bottom: -12px;
+  margin-inline: 12px;
+  margin-left: 0rem;
+}
+
+.Main__About p {
+  color: #181818;
+  font-family: Syne;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.5%;
+  text-align: left;
+}
+.Main__About h3 {
+  color: #595566;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.5%;
+  text-align: left;
+}
+@media screen and (max-width: 700px) {
+  .About__Container {
+    grid-template-columns: 100%;
+    padding: 1rem;
+    padding-top: 7.5rem;
+  }
+  .About__Container .First h2 {
+    font-size: 33px;
+    padding-left: 2rem;
+  }
+  .Main__About {
+    grid-template-columns: 100%;
+    margin-top: -8rem;
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Service 1",
+    "thumbnail": "src/Assets/About-second.png",
+    "desc": "Description for Service 1"
+  },
+  {
+    "id": 2,
+    "title": "Service 2",
+    "thumbnail": "src/Assets/About-second.png",
+    "desc": "Description for Service 2"
+  }
+]

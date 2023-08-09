@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Syne:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap");
+.work__material {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 5%;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+.service-image img {
+  /* width: 33rem;
+  height: 21rem; */
+  margin-top: 1rem;
+}
+.one:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+
+.two:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+.three:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+.four:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+.five:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+.one1 {
+  margin-left: -11rem;
+}
+#Serr__Iconss {
+  margin-left: -11rem;
+}
+.six:hover {
+  box-shadow: 5px 6px 6px 2px gray;
+  transform: scale(1.1);
+}
+.icon__page {
+  list-style: none;
+  padding: 1rem;
+}
+.one1 {
+  background-image: url("../../Assets/Icons.png");
+  background-repeat: no-repeat;
+  width: 2.5rem;
+}
+.p1icon {
+  padding: 1.5rem;
+  margin-top: -4rem;
+  margin-left: 13rem;
+  color: var(--gray-900, #061c3d);
+  font-family: Lexend;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.paragrahp {
+  text-align: left;
+  color: #4d4c4c;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second__pharagrahp {
+  margin-top: -5rem;
+  text-align: left;
+  color: #7c7c7c;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 700px) {
+  .second__pharagrahp p {
+    padding: 1rem;
+    margin-left: 3rem;
+  }
+  .work__material {
+    grid-template-columns: 1fr;
+    margin-top: -2rem;
+    margin-left: -3rem;
+  }
+  .icon__page {
+    margin-left: -16rem;
+  }
+  .paragrahp {
+    padding: 1rem;
+    margin-top: -7rem;
+  }
+  .second__pharagrahp p {
+    padding: 1rem;
+  }
+  .service-image img {
+    width: 21rem;
+    height: 13rem;
+  }
+  .p1icon {
+    padding: 2rem;
+    margin-left: 24rem;
+  }
+  .one1 {
+    margin-left: 4rem;
+  }
+  #Serr__Iconss {
+    margin-left: 4rem;
+  }
+}

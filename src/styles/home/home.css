@@ -1,0 +1,122 @@
+.Home__Banner {
+  object-fit: cover;
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.Home__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 5rem;
+  padding-top: 6.5rem;
+}
+.Home__container .First {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5.5px);
+  margin-top: 2rem;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 29px;
+}
+.Home__container .First h1 {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 116%;
+  /* or 58px */
+  text-align: left;
+  color: #181818;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.Home__container .First p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147.5%;
+  /* or 24px */
+  text-align: left;
+  padding-left: 3rem;
+
+  color: #595566;
+}
+.Home__container .Next {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 10%;
+  padding: 2rem;
+  grid-auto-rows: minmax(100px auto);
+}
+.Get__btn button {
+  width: 197px;
+  height: 68px;
+  border: none;
+
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  border-radius: 72px;
+}
+.Book__btn button {
+  border-radius: 72px;
+
+  width: 197px;
+  height: 68px;
+  border: none;
+  background-color: white;
+}
+.Get__btn h6 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-top: 1rem;
+}
+.Book__btn h6 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-transform: capitalize;
+
+  margin-top: 1rem;
+  color: #0e828f;
+}
+@media screen and (max-width: 700px) {
+  .Home__container {
+    grid-template-columns: 100%;
+    padding-left: 1rem;
+  }
+  .Home__container .First {
+    width: 23rem;
+    margin-top: -1rem;
+  }
+  .Home__container .First h1 {
+    font-size: 32px;
+
+    padding-left: 2rem;
+  }
+  .Get__btn button {
+    width: 148px;
+  }
+  .Book__btn button {
+    width: 148px;
+  }
+  .Get__btn h6 {
+    font-size: 16px;
+  }
+  .Book__btn h6 {
+    font-size: 16px;
+  }
+}

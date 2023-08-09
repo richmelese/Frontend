@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Syne";
+}
+h1 {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+}
+.find h1 {
+  text-align: center;
+  margin: 5rem 0 3rem 0;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+  color: #f05f2b;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.Us {
+  color: white;
+  background-color: #0e828f;
+}
+.accordion-title {
+  text-align: left;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  background: white;
+  color: #0e828f;
+
+  border-radius: 8px;
+}
+
+.accordion-title:hover {
+  background: white;
+}
+
+.accordion-title,
+.accordion-content {
+  padding: 1rem;
+}
+
+.accordion-content {
+  font-family: "Syne";
+  font-style: normal;
+  text-align: left;
+  background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+
+  color: #ffffff;
+}
+.accordioncolor {
+  background-color: #0e828f;
+  color: #eee9e9;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    margin-top: 3rem;
+    width: 100%;
+    padding: 2rem;
+  }
+  .accordino-image img {
+    width: 25rem;
+    margin-top: 1rem;
+  }
+  .find {
+    /* margin-top: 2rem; */
+  }
+}

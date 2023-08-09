@@ -1,0 +1,323 @@
+.grid__contact {
+  display: grid;
+  grid-template-columns: 70%;
+  grid-auto-rows: minmax(150px auto);
+  gap: 3%;
+}
+.grid__form {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-auto-rows: minmax(150px auto);
+  margin-top: 3rem;
+  margin-left: 3rem;
+  gap: 5%;
+  margin-bottom: 7rem;
+}
+.subdiv1 {
+  margin-top: -19rem;
+}
+.sub-form {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-auto-rows: minmax(150px auto);
+  gap: 8%;
+  margin-left: 3rem;
+}
+.formbox {
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 3px;
+  padding: 5px 380px 15px 8px;
+  margin-left: 6rem;
+}
+.formcolor {
+  color: var(--gray-900, #061c3d);
+  margin-left: -9rem;
+  font-size: 14px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 20px;
+}
+.formfullname {
+  color: var(--gray-900, #061c3d);
+
+  font-size: 14px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 20px;
+}
+.formcolortext2 {
+  color: var(--gray-900, #061c3d);
+  margin-left: -5rem;
+  font-size: 14px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 20px;
+}
+.formcoloremail {
+  margin-left: 10rem;
+  color: var(--gray-900, #061c3d);
+
+  font-size: 14px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 20px;
+}
+.submit {
+  margin-top: 4rem;
+  display: inline-flex;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  border-radius: 2px;
+  background: var(--linear, linear-gradient(134deg, #f05f2b 0%, #ec1771 100%));
+}
+.submit p {
+  color: white;
+  margin-top: 1rem;
+}
+.txtarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px 398px 58px 7px;
+  margin-left: 6rem;
+}
+.nameform {
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 3px;
+  padding: 5px 90px 15px 8px;
+  margin-left: 3rem;
+}
+.emailform {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 70px 15px 21px;
+  margin-left: 10rem;
+}
+.contact_heading h2 {
+  color: var(--style, #25233a);
+  font-size: 36px;
+  font-family: Syne;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.54px;
+}
+.logoPhone {
+  margin-left: 13rem;
+  margin-top: -3rem;
+  color: var(--style, #25233a);
+  font-size: 14px;
+  font-family: Lexend;
+  line-height: 100%;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.logo1 {
+  margin-left: 11rem;
+  margin-top: -3rem;
+  color: var(--style, #25233a);
+
+  font-size: 14px;
+  font-family: Lexend;
+  line-height: 100%;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.logo2 {
+  margin-top: -1rem;
+  margin-left: 16rem;
+  color: var(--style, #25233a);
+  font-size: 20px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 28px;
+}
+.logolocation {
+  margin-top: -4rem;
+  display: flex;
+  width: 336px;
+  flex-direction: column;
+  margin-left: 14rem;
+  color: var(--style, #25233a);
+  font-size: 20px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 28px;
+}
+.contact_heading li {
+  list-style: none;
+  padding: 1rem;
+  margin-left: -8rem;
+}
+.social li {
+  list-style: none;
+  float: left;
+  padding: 0.5rem;
+}
+.social {
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+.email {
+  color: var(--style, #25233a);
+  /* CAPTION/02 */
+  font-size: 14px;
+  font-family: Lexend;
+  line-height: 100%;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+}
+.paragraph p {
+  text-align: center;
+
+  color: var(--gray-900, #061c3d);
+  margin-left: 22rem;
+  font-size: 20px;
+  font-family: Lexend;
+  font-weight: 300;
+  line-height: 28px;
+  margin-top: -3rem;
+}
+
+.heading_Two h1 {
+  color: var(--gray-900, #061c3d);
+  text-align: center;
+  font-size: 50px;
+  font-family: Syne;
+  font-weight: 600;
+  line-height: 60px;
+  margin-left: 25rem;
+  flex-direction: column;
+}
+.heading {
+  color: #f05f2b;
+  text-align: center;
+  font-size: 40px;
+  font-family: Syne;
+  font-weight: 700;
+  margin-left: 21rem;
+  margin-top: 2rem;
+}
+
+.span_heading {
+  background: var(--0-e-828-f, #0e828f);
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .grid__contact {
+    grid-template-columns: 100%;
+    margin-top: 8rem;
+    margin-left: -18rem;
+    padding: 1rem;
+  }
+  .grid__form {
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    padding: 1rem;
+  }
+  .sub-form {
+    grid-template-columns: 1fr;
+  }
+
+  .formcoloremail {
+    margin-left: -9rem;
+    margin-top: 3rem;
+  }
+  .formcolortext2 {
+    margin-left: -17rem;
+  }
+  .heading h2 {
+    margin-left: -3rem;
+    margin-top: 7rem;
+  }
+  .heading_Two h1 {
+    text-align: center;
+    margin-left: 19rem;
+    font-size: 34px;
+    padding: 2rem;
+    margin-top: -2rem;
+  }
+
+  .social {
+    margin-left: 17rem;
+    margin-top: 1rem;
+  }
+  .formbox {
+    padding: 1px 10px 15px 8px;
+    width: 21rem;
+    margin-left: -6rem;
+  }
+  .nameform {
+    padding: 1px 10px 15px 8px;
+    margin-left: -3rem;
+    /* margin-top: -4rem; */
+    width: 21rem;
+  }
+  .formfullname {
+    margin-left: -19rem;
+  }
+  .txtarea {
+    padding: 3px 10px 15px 70px;
+    margin-left: -6rem;
+    width: 22rem;
+    height: 15rem;
+  }
+  .submit {
+    margin-top: 2rem;
+    margin-left: -6rem;
+  }
+  .emailform {
+    /* padding: 1px 10px 15px 8px; */
+    margin-top: -2rem;
+    margin-left: -11rem;
+    width: 21rem;
+  }
+  .formcolor {
+    margin-left: -22rem;
+  }
+  .paragraph p {
+    margin-left: 18rem;
+    text-align: center;
+    margin-top: -5rem;
+  }
+  .contact_heading h2 {
+    margin-left: -8rem;
+  }
+  .heading h2 {
+    font-size: 45px;
+  }
+  .contact_heading li {
+    margin-left: -25rem;
+  }
+  .logolocation {
+    margin-left: 20rem;
+  }
+  .contact_heading {
+    margin-left: 8rem;
+  }
+  .subdiv1 {
+    margin-left: 6rem;
+    margin-top: 6remrem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2560px) {
+  .logolocation {
+    margin-left: 20rem;
+  }
+  .emailform {
+    margin-left: 5rem;
+  }
+  .social {
+    margin-left: 11rem;
+  }
+}
+.Ser__icons {
+  width: 3rem;
+}
+.arrow__services {
+  width: 1.5rem;
+}

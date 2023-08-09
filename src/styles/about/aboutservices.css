@@ -1,0 +1,27 @@
+.About__Services {
+  text-align: center;
+}
+.About__Servicess__Text {
+  padding-top: 8rem;
+  text-align: center;
+  font-size: 40px;
+  font-family: Syne;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%);
+  /* background: linear-gradient(98.88deg, #f05f2b 13.12%, #ec1771 119.96%); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  margin-bottom: 2rem;
+}
+.About__Servicess__span {
+  background-color: teal;
+  z-index: 1;
+  -webkit-text-fill-color: white;
+}
+.services__Whole__Container {
+  background: #f7fbfb;
+}
+.Services__Container h6 a {
+}
